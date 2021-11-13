@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.erikd.junit5app.ejemplos.models.CuentaTest" time="5.42" tests="73" errors="0" skipped="9" failures="12">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Erik\Proyectos\JunitMockitoOnSpringCourse\target\test-classes;C:\Users\Erik\Proyectos\JunitMockitoOnSpringCourse\target\classes;C:\Users\Erik\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.2\junit-jupiter-5.7.2.jar;C:\Users\Erik\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\Erik\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Erik\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Erik\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\Erik\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\Erik\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\Erik\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/Buenos_Aires"/>
+    <property name="user.country.format" value="AR"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
+    <property name="sun.java.command" value="C:\Users\Erik\AppData\Local\Temp\surefire244557650830127085\surefirebooter3181954345032041833.jar C:\Users\Erik\AppData\Local\Temp\surefire244557650830127085 2021-11-12T21-44-09_593-jvmRun1 surefire9678514360425229742tmp surefire_0379560798412406617tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Erik\Proyectos\JunitMockitoOnSpringCourse\target\test-classes;C:\Users\Erik\Proyectos\JunitMockitoOnSpringCourse\target\classes;C:\Users\Erik\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.2\junit-jupiter-5.7.2.jar;C:\Users\Erik\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\Erik\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Erik\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Erik\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\Erik\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\Erik\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\Erik\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Erik"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Erik\Proyectos\JunitMockitoOnSpringCourse"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Erik\AppData\Local\Temp\surefire244557650830127085\surefirebooter3181954345032041833.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
+    <property name="user.name" value="Erik"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Erik\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Erik\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="C:\Users\Erik\Proyectos\JunitMockitoOnSpringCourse"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="es"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Calibre2\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Erik\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\bin;;C:\Program Files\apache-maven-3.8.2\bin;;C:\Users\Erik\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testRelacionBancoCuentasAssertAll" classname="org.erikd.junit5app.ejemplos.models.CuentaTest" time="0.062"/>
+  <testcase name="testRelacionBancoCuentas" classname="org.erikd.junit5app.ejemplos.models.CuentaTest" time="0"/>
+  <testcase name="testDebitoCuentaMethodSource{String}[1]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest" time="0.015"/>
+  <testcase name="testDebitoCuentaMethodSource{String}[2]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest" time="0.002"/>
+  <testcase name="testDebitoCuentaMethodSource{String}[3]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest" time="0.002"/>
+  <testcase name="testDebitoCuentaMethodSource{String}[4]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest" time="0.007"/>
+  <testcase name="testDebitoCuentaMethodSource{String}[5]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest" time="0.004"/>
+  <testcase name="testDebitoCuentaMethodSource{String}[6]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest" time="0.004">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.erikd.junit5app.ejemplos.models.CuentaTest.testDebitoCuentaMethodSource(CuentaTest.java:424)
+]]></failure>
+    <system-out><![CDATA[Starting method.
+Ejecutando: Numero 6 ejecutando con valor 1000.12345 - 1000.12345 testDebitoCuentaMethodSource | con las etiquetas [param] |
+Ending testing method.
+]]></system-out>
+  </testcase>
+  <testcase name="timeOutTest" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$TimeOutTest" time="0.12"/>
+  <testcase name="timeOutTest2" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$TimeOutTest" time="0.903"/>
+  <testcase name="testTimeOutAssertions" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$TimeOutTest" time="4.009"/>
+  <testcase name="testDebitoCuentaCsvSource2{String, String, String, String}[1]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.007">
+    <failure message="expected: &lt;John&gt; but was: &lt;Andres&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <John> but was: <Andres>
+	at org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests.testDebitoCuentaCsvSource2(CuentaTest.java:475)
+]]></failure>
+    <system-out><![CDATA[Starting method.
+Ejecutando: Numero 1 ejecutando con valor 200 - 200, 100, John, Andres testDebitoCuentaCsvSource2 | con las etiquetas [param] |
+200 -> 100
+Ending testing method.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource2{String, String, String, String}[2]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.003"/>
+  <testcase name="testDebitoCuentaCsvSource2{String, String, String, String}[3]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.006">
+    <failure message="expected: &lt;maria&gt; but was: &lt;Maria&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <maria> but was: <Maria>
+	at org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests.testDebitoCuentaCsvSource2(CuentaTest.java:475)
+]]></failure>
+    <system-out><![CDATA[Starting method.
+Ejecutando: Numero 3 ejecutando con valor 300 - 300, 300, maria, Maria testDebitoCuentaCsvSource2 | con las etiquetas [param] |
+300 -> 300
+Ending testing method.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource2{String, String, String, String}[4]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.001"/>
+  <testcase name="testDebitoCuentaCsvSource2{String, String, String, String}[5]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.003">
+    <failure message="expected: &lt;Lucas&gt; but was: &lt;Luca&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <Lucas> but was: <Luca>
+	at org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests.testDebitoCuentaCsvSource2(CuentaTest.java:475)
+]]></failure>
+    <system-out><![CDATA[Starting method.
+Ejecutando: Numero 5 ejecutando con valor 750 - 750, 700, Lucas, Luca testDebitoCuentaCsvSource2 | con las etiquetas [param] |
+750 -> 700
+Ending testing method.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource2{String, String, String, String}[6]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.001">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests.testDebitoCuentaCsvSource2(CuentaTest.java:476)
+]]></failure>
+    <system-out><![CDATA[Starting method.
+Ejecutando: Numero 6 ejecutando con valor 1000.12345 - 1000.12345, 1000.12345, Cata, Cata testDebitoCuentaCsvSource2 | con las etiquetas [param] |
+1000.12345 -> 1000.12345
+Ending testing method.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[1]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.001"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[2]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.002"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[3]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.01"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[4]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.003"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[5]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.002"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[6]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.008">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests.testDebitoCuentaCsvSource(CuentaTest.java:452)
+]]></failure>
+    <system-out><![CDATA[Starting method.
+Ejecutando: Numero 6 ejecutando con valor 6 6, 1000.12345 testDebitoCuentaCsvSource | con las etiquetas [param] |
+6 -> 1000.12345
+Ending testing method.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[1]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.008"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[2]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.003"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[3]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.001"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[4]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.001"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[5]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.001"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[6]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.001"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[7]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.007">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests.testDebitoCuentaCsvFileSource(CuentaTest.java:461)
+]]></failure>
+    <system-out><![CDATA[Starting method.
+Ejecutando: Numero 7 ejecutando con valor 1000.12345 - 1000.12345 testDebitoCuentaCsvFileSource | con las etiquetas [param] |
+Ending testing method.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvFileSource2{String, String, String, String}[1]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.001">
+    <failure message="expected: &lt;John&gt; but was: &lt;Andres&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <John> but was: <Andres>
+	at org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests.testDebitoCuentaCsvFileSource2(CuentaTest.java:490)
+]]></failure>
+    <system-out><![CDATA[Starting method.
+Ejecutando: Numero 1 ejecutando con valor 200, 100, John, Andres testDebitoCuentaCsvFileSource2 | con las etiquetas [param] |
+Ending testing method.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvFileSource2{String, String, String, String}[2]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.002"/>
+  <testcase name="testDebitoCuentaCsvFileSource2{String, String, String, String}[3]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.001">
+    <failure message="expected: &lt;maria&gt; but was: &lt;Maria&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <maria> but was: <Maria>
+	at org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests.testDebitoCuentaCsvFileSource2(CuentaTest.java:490)
+]]></failure>
+    <system-out><![CDATA[Starting method.
+Ejecutando: Numero 3 ejecutando con valor 300, 300, maria, Maria testDebitoCuentaCsvFileSource2 | con las etiquetas [param] |
+Ending testing method.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvFileSource2{String, String, String, String}[4]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.007"/>
+  <testcase name="testDebitoCuentaCsvFileSource2{String, String, String, String}[5]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.001">
+    <failure message="expected: &lt;Lucas&gt; but was: &lt;Luca&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <Lucas> but was: <Luca>
+	at org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests.testDebitoCuentaCsvFileSource2(CuentaTest.java:490)
+]]></failure>
+    <system-out><![CDATA[Starting method.
+Ejecutando: Numero 5 ejecutando con valor 750, 700, Lucas, Luca testDebitoCuentaCsvFileSource2 | con las etiquetas [param] |
+Ending testing method.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvFileSource2{String, String, String, String}[6]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.002">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests.testDebitoCuentaCsvFileSource2(CuentaTest.java:491)
+]]></failure>
+    <system-out><![CDATA[Starting method.
+Ejecutando: Numero 6 ejecutando con valor 1000.12345, 1000.12345, Cata, Cata testDebitoCuentaCsvFileSource2 | con las etiquetas [param] |
+Ending testing method.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaValueSource{String}[1]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.001"/>
+  <testcase name="testDebitoCuentaValueSource{String}[2]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.01"/>
+  <testcase name="testDebitoCuentaValueSource{String}[3]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.001"/>
+  <testcase name="testDebitoCuentaValueSource{String}[4]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.001"/>
+  <testcase name="testDebitoCuentaValueSource{String}[5]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.002"/>
+  <testcase name="testDebitoCuentaValueSource{String}[6]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests" time="0.001">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests.testDebitoCuentaValueSource(CuentaTest.java:442)
+]]></failure>
+    <system-out><![CDATA[Starting method.
+Ejecutando: Numero 6 ejecutando con valor 1000.12345 1000.12345 testDebitoCuentaValueSource | con las etiquetas [param] |
+Ending testing method.
+]]></system-out>
+  </testcase>
+  <testcase name="testSaldoCuentaDevEnv2" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$EnviromentVariable" time="0.001"/>
+  <testcase name="testEnvironment" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$EnviromentVariable" time="0">
+    <skipped message="Environment variable [ENVIRONMENT] does not exist"/>
+  </testcase>
+  <testcase name="testProcessor" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$EnviromentVariable" time="0.002"/>
+  <testcase name="testJavaHome" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$EnviromentVariable" time="0.002"/>
+  <testcase name="printEnviromentVariables" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$EnviromentVariable" time="0.036"/>
+  <testcase name="testEnvironmentProductionDisabled" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$EnviromentVariable" time="0">
+    <skipped message="Environment variable [ENVIRONMENT] does not exist"/>
+  </testcase>
+  <testcase name="testSaldoCuentaDevEnv" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$EnviromentVariable" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at org.erikd.junit5app.ejemplos.models.CuentaTest$EnviromentVariable.testSaldoCuentaDevEnv(CuentaTest.java:394)
+</skipped>
+    <system-out><![CDATA[Starting method.
+Ejecutando: Testing Account Balance. Not Null. Greater than zero. ONLY ON DEV ENV. testSaldoCuentaDevEnv | con las etiquetas [] |
+Ending testing method.
+]]></system-out>
+  </testcase>
+  <testcase name="testDev" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$SystemProperties" time="0">
+    <skipped message="System property [ENV] does not exist"/>
+  </testcase>
+  <testcase name="testNO64" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$SystemProperties" time="0">
+    <skipped message="System property [os.arch] with value [amd64] does not match regular expression [.*32.*]"/>
+  </testcase>
+  <testcase name="printSystemProperties" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$SystemProperties" time="0.048"/>
+  <testcase name="testUserName" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$SystemProperties" time="0.001"/>
+  <testcase name="testJavaVersion" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$SystemProperties" time="0"/>
+  <testcase name="testSolo64" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$SystemProperties" time="0.001"/>
+  <testcase name="soloJDK11" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$JavaVersion" time="0.002"/>
+  <testcase name="soloJDK8" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$JavaVersion" time="0">
+    <skipped message="Disabled on JRE version: 11.0.11"/>
+  </testcase>
+  <testcase name="testNoJDK15" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$JavaVersion" time="0">
+    <skipped message="Disabled on JRE version: 11.0.11"/>
+  </testcase>
+  <testcase name="testNoWindows" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$OperatingSystem" time="0">
+    <skipped message="Disabled on operating system: Windows 10"/>
+  </testcase>
+  <testcase name="testSoloLinuxMac" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$OperatingSystem" time="0">
+    <skipped message="Disabled on operating system: Windows 10"/>
+  </testcase>
+  <testcase name="testSoloWindows" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$OperatingSystem" time="0.001"/>
+  <testcase name="testCreditoCuenta" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$AccountOperations" time="0"/>
+  <testcase name="testDineroInsuficienteExceptionCuenta" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$AccountOperations" time="0.001"/>
+  <testcase name="testDebitoCuenta" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$AccountOperations" time="0"/>
+  <testcase name="testTransferirDineroCuentas" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$AccountOperations" time="0"/>
+  <testcase name="testDebitoCuentaRepetir{RepetitionInfo}[1]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$AccountOperations" time="0.001"/>
+  <testcase name="testDebitoCuentaRepetir{RepetitionInfo}[2]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$AccountOperations" time="0"/>
+  <testcase name="testDebitoCuentaRepetir{RepetitionInfo}[3]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$AccountOperations" time="0.002"/>
+  <testcase name="testDebitoCuentaRepetir{RepetitionInfo}[4]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$AccountOperations" time="0.001"/>
+  <testcase name="testDebitoCuentaRepetir{RepetitionInfo}[5]" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$AccountOperations" time="0"/>
+  <testcase name="testSaldoCuenta" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$AccountNameBalance" time="0.001"/>
+  <testcase name="testReferenciaCuenta" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$AccountNameBalance" time="0.001"/>
+  <testcase name="testNombreCuenta" classname="org.erikd.junit5app.ejemplos.models.CuentaTest$AccountNameBalance" time="0.001"/>
+</testsuite>

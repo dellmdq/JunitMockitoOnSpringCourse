@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: org.erikd.junit5app.ejemplos.models.CuentaTest
+-------------------------------------------------------------------------------
+Tests run: 73, Failures: 12, Errors: 0, Skipped: 9, Time elapsed: 5.42 s <<< FAILURE! - in org.erikd.junit5app.ejemplos.models.CuentaTest
+testDebitoCuentaMethodSource{String}[6]  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.erikd.junit5app.ejemplos.models.CuentaTest.testDebitoCuentaMethodSource(CuentaTest.java:424)
+
+testDebitoCuentaCsvSource2{String, String, String, String}[1]  Time elapsed: 0.007 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <John> but was: <Andres>
+	at org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests.testDebitoCuentaCsvSource2(CuentaTest.java:475)
+
+testDebitoCuentaCsvSource2{String, String, String, String}[3]  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <maria> but was: <Maria>
+	at org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests.testDebitoCuentaCsvSource2(CuentaTest.java:475)
+
+testDebitoCuentaCsvSource2{String, String, String, String}[5]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Lucas> but was: <Luca>
+	at org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests.testDebitoCuentaCsvSource2(CuentaTest.java:475)
+
+testDebitoCuentaCsvSource2{String, String, String, String}[6]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests.testDebitoCuentaCsvSource2(CuentaTest.java:476)
+
+testDebitoCuentaCsvSource{String, String}[6]  Time elapsed: 0.008 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests.testDebitoCuentaCsvSource(CuentaTest.java:452)
+
+testDebitoCuentaCsvFileSource{String}[7]  Time elapsed: 0.007 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests.testDebitoCuentaCsvFileSource(CuentaTest.java:461)
+
+testDebitoCuentaCsvFileSource2{String, String, String, String}[1]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <John> but was: <Andres>
+	at org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests.testDebitoCuentaCsvFileSource2(CuentaTest.java:490)
+
+testDebitoCuentaCsvFileSource2{String, String, String, String}[3]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <maria> but was: <Maria>
+	at org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests.testDebitoCuentaCsvFileSource2(CuentaTest.java:490)
+
+testDebitoCuentaCsvFileSource2{String, String, String, String}[5]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Lucas> but was: <Luca>
+	at org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests.testDebitoCuentaCsvFileSource2(CuentaTest.java:490)
+
+testDebitoCuentaCsvFileSource2{String, String, String, String}[6]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests.testDebitoCuentaCsvFileSource2(CuentaTest.java:491)
+
+testDebitoCuentaValueSource{String}[6]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.erikd.junit5app.ejemplos.models.CuentaTest$ParameterizedTests.testDebitoCuentaValueSource(CuentaTest.java:442)
+
